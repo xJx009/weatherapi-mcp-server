@@ -1,0 +1,28 @@
+{
+  "name": "weatherapi-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for WeatherAPI.com integration",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "weatherapi-mcp-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "weather",
+    "weatherapi",
+    "claude"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
